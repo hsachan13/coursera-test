@@ -1,19 +1,22 @@
 
 *{
     box-sizing: border-box;
+
   }
 h1{
   text-align:center;
   font-family: Gill Sans Extrabold, sans-serif;
   color: red;
   background-color:yellow;
-
+margin-top: 10px;
+margin-right: 0px;
+margin-left: 0px;
 } 
 body{
   background-color: grey;
 }
 p {
-  font-family: Helvetica;
+  font-family: "Lucida Console", Courier, monospace;
   position: absolute;
 }
 .row{
@@ -23,7 +26,8 @@ position: relative;
  margin-right: 10px;
  margin-bottom: 10px;
  padding: 10px;
- 
+ font-family: "Lucida Console", Courier, monospace;
+ font-size: 15px;
 
 }
 section{
@@ -54,15 +58,11 @@ section{
   position: relative;
 }
 
-    #p{
-      width: 100%;
-    }
 /********** Desktop version **********/
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
-      padding: 15px;
-    }
+      }
     .col-lg-1 {
       width: 8.33%;
     }
@@ -73,12 +73,12 @@ section{
       width: 25%;
     }
     .col-lg-4 {
-      width: 32%;
+      width: 30%;
       background-color: orange;
     border: 1px solid black;
-    height: 220px;
+    height: 200px;
     overflow: auto;
-    margin-right: 5px;
+    margin-left: 3%;
     position: relative;
     }
     .col-lg-5 {
@@ -111,7 +111,7 @@ section{
   @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
       float: left;
-      padding: 15px;
+     
     }
     .col-md-1 {
       width: 8.33%;
@@ -129,14 +129,14 @@ section{
       width: 41.66%;
     }
     .col-md-6 {
-     width: 49%;
+     width: 45.5%;
       background-color: orange;
      border: 1px solid black;
-     height: 220px;
+     height: 200px;
      display: block;
-     margin-right: 1px;
+     margin-left: 4.5%;
      margin-bottom: 5px;
-     
+    position: relative;
      
 }
     .col-md-7 {
@@ -158,8 +158,9 @@ section{
       width: 100%;
     }
     .col-md-6 + .col-md-6 + .col-md-6 {
-    width: 98%;
+    width: 95.5%;
   }
+  
 
 
   }
@@ -168,7 +169,6 @@ section{
   @media (max-width: 767px) {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
       float: left;
-      padding: 15px;
     }
     .col-sm-1 {
       width: 8.33%;
