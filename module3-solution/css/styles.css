@@ -150,7 +150,7 @@ position: relative;
 	display: block;
 }
 .collapse>ul>li{
-	border:1px solid black;
+border:1px solid black;
 }
 
 
@@ -278,10 +278,17 @@ position: relative;
    
     
     
-        margin-bottom: 10px;
-        float: left;
+*/        float: left;
 }
+   .navbar.navbar-default .navbar-nav {
+    
+      
+      margin-top: -1px;
+      overflow-x: hidden;
+
+      
+      }
+  }
 
 
 
-}
