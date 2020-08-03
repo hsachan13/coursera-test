@@ -278,13 +278,13 @@ border:1px solid black;
    
     
     
-*/        float: left;
+        float: left;
 }
    .navbar.navbar-default .navbar-nav {
     
       
       margin-top: -1px;
-      overflow-x: hidden;
+    
 
       
       }
